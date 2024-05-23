@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>La Cocina de Norma</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f8f8f8;
+            }
+
+            header {
+                background-color: #ff6b6b;
+                padding: 20px 0;
+                text-align: center;
+                color: #fff;
+            }
+
+            h1 {
+                margin-bottom: 10px;
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.2em;
+                color: #fff;
+                opacity: 0.8;
+                margin-top: 5px;
+            }
+
+            h2 span {
+                margin: 0 5px;
+            }
+
+            h2 a {
+                color: #fff;
+                text-decoration: none;
+            }
+
+            h2 a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>La Cocina de Norma</h1>
+            <h2>
+                <span><a href="#home">Home</a></span> |  
+                <span><a href="#contact">Contact</a></span>
+            </h2>
+        </header>
+        <div class="dish-gallery">
+            <!-- Gallery items go here -->
+        </div>
+    </body>
+    </html>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .contact-info {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .contact-info p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Contact</h1>
+  <div class="contact-info">
+    <p><strong>Email:</strong> info@example.com</p>
+    <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+    <p><strong>Instagram:</strong> @LaCocinadeNorma</p>
+  </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dish Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .dish-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .dish-item {
+            position: relative;
+            width: 100%;
+            padding-bottom: 100%; /* Square aspect ratio */
+            overflow: hidden;
+        }
+
+        .dish-item img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Dish Gallery</h1>
+    <div class="dish-gallery">
+        <div class="dish-item">
+            <img src="images/dish1.jpeg" alt="Dish 1">
+        </div>
+        <div class="dish-item">
+            <img src="images/dish2.jpeg" alt="Dish 2">
+        </div>
+        <div class="dish-item">
+            <img src="images/dish3.jpeg" alt="Dish 3">
+        </div>
+        <div class="dish-item">
+            <img src="images/dish4.jpeg" alt="Dish 4">
+        </div>
+        <div class="dish-item">
+            <img src="images/dish5.jpeg" alt="Dish 5">
+        </div>
+        <div class="dish-item">
+            <img src="images/dish6.jpeg" alt="Dish 6">
+        </div>
+    </div>
+</body>
+</html>
